@@ -1,11 +1,18 @@
 # Inpac终端读取.root
 以查看/lustre/neutrino/wangyingwei/data/shower/10_100TeV/batch0/detectorResponse/data.root  目录文件为例
+
 1.转到目录：
-`cd /lustre/neutrino/wangyingwei/data/shower/10_100TeV/batch0/detectorResponse`
+```
+cd /lustre/neutrino/wangyingwei/data/shower/10_100TeV/batch0/detectorResponse
+```
 2.查看root文件数据结构：
-`root -l data.root
-.ls`
+```
+root -l data.root
+.ls
+```
 可以看到root文件中包含各种Tree
+
+
 以DomHit为例，查看Branch：
 `DomHit->Print()`
 临时查看数据内容：
